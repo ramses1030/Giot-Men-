@@ -1,14 +1,4 @@
-/*
-Theme Name: Cemre Bakery Theme
-Theme URI: https://bakery.cemreworks.com
-Author: Cemre Tellioğlu Tunçay
-Author URI: https://cemreworks.com
-*/
-/*
-* ==========================================
-* GENERAL AND HEADER START
-* ==========================================
-*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&diplay=swap');
 
 
 .fixedArea {
@@ -328,7 +318,50 @@ section#section1 .maintext h2 {
   margin-bottom: 50px;
 }
 
+section#effect
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
 
+section#effect body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #16384c;
+}
+
+section#effect .container
+{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+section#effect .container .card
+{
+  position: relative;
+  max-width: 300px;
+  height: 420px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+section#effect .container .card .imgBx
+{
+  position: relative;
+  width: 260px;
+  height: 260px;
+}
 /*
 * ==========================================
 * SECTION1 END
